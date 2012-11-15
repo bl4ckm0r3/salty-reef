@@ -1,0 +1,272 @@
+/* -------------------------------------------------------
+    Lading Page Sections
+   -------------------------------------------------------*/
+/*  Features
+ */
+.landing-section_features {
+  padding: 20px 0;
+  overflow: hidden;
+}
+.landing-section_features .item {
+  color: #5d5d5d;
+  font-size: 15px;
+  text-align: center;
+  float: left;
+  width: 295px;
+  padding: 40px 0 20px 37px;
+}
+.landing-section_features .item_first {
+  padding-left: 0;
+}
+.landing-section_features .item__title {
+  color: #505050;
+  font-size: 21px;
+  line-height: 24px;
+  padding: 15px 0 10px 0;
+}
+.landing-section_featuers .item__description {
+  line-height: 34px;
+}
+
+/*  Featured Experts
+ */
+.landing-section_featured-experts {
+  position: relative;
+}
+.landing-section_featured-experts .experts {
+  position: relative;
+  overflow: hidden;
+  margin: 15px 0 30px 0;
+}
+.landing-section_featured-experts .experts:before {
+  content: '';
+  display: block;
+  width: 750px;
+  border-top: 1px solid #e4e4e4;
+  position: absolute;
+  left: 105px;
+  top: 90px;
+}
+.landing-section_featured-experts .expert {
+  position: relative;
+  text-align: center;
+  float: left;
+  width: 280px;
+  padding-left: 60px;
+}
+.landing-section_featured-experts .expert:first-child {
+  padding-left: 0;
+}
+.landing-section_featured-experts .expert__photo-container {
+  margin: 0 auto;
+  background: #fff;
+  width: 159px;
+  height: 159px;
+  border: 1px solid #e6e6e6;
+  -webkit-border-radius: 79.5px;
+          border-radius: 79.5px;
+}
+.landing-section_featured-experts .expert__photo {
+  margin: 8px;
+  width: 143px;
+  height: 143px;
+  -webkit-border-radius: 71.5px;
+          border-radius: 71.5px;
+}
+.landing-section_featured-experts .expert__name {
+  padding: 20px 0 0 0;
+  color: #505050;
+  font-size: 21px;
+  line-height: 24px;
+}
+.landing-section_featured-experts .expert__description {
+  font-size: 14px;
+  color: #969696;
+}
+.landing-section_featured-experts .expert__opinion {
+  padding: 10px 0 0 0;
+  color: #5d5d5d;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 24px;
+}
+
+/*  Join Us
+ */
+.landing-section_join-us {
+  text-align: center;
+  padding: 20px 0 38px;
+  border-bottom: 1px solid #e4e4e4;
+}
+.landing-section_join-us-bottom {
+  text-align: center;
+  padding: 0 0 50px 0;
+}
+
+/*  Designers Workpalce
+ */
+.landing-section_designers-workplace {
+  padding: 45px 0 0 0;
+  overflow: hidden;
+}
+.landing-section_designers-workplace .items {
+  text-align: center;
+  font-size: 0;
+  margin: 35px 0;
+}
+.landing-section_designers-workplace .item {
+  display: inline-block;
+  margin: 0 12px;
+}
+.landing-section_designers-workplace .item:hover {
+  background-position: 0 -100%;
+}
+.landing-section_designers-workplace .item_path {
+  width: 93px;
+  height: 36px;
+  background: url(../img/landing/brand-logo__path.png);
+}
+.landing-section_designers-workplace .item_facebook {
+  width: 176px;
+  height: 38px;
+  background: url(../img/landing/brand-logo__facebook.png);
+}
+.landing-section_designers-workplace .item_scan {
+  width: 103px;
+  height: 35px;
+  background: url(../img/landing/brand-logo__scan.png);
+}
+.landing-section_designers-workplace .item_airbnb {
+  width: 95px;
+  height: 34px;
+  background: url(../img/landing/brand-logo__airbnb.png);
+}
+.landing-section_designers-workplace .item_eq5 {
+  width: 36px;
+  height: 36px;
+  background: url(../img/landing/brand-logo__eq5.png);
+}
+.landing-section_designers-workplace .item_gataround {
+  width: 152px;
+  height: 38px;
+  background: url(../img/landing/brand-logo__getaround.png);
+}
+.landing-section_designers-workplace .item_pinterest {
+  width: 145px;
+  height: 37px;
+  background: url(../img/landing/brand-logo__pinterest.png);
+}
+.landing-section_designers-workplace .item_vimeo {
+  width: 128px;
+  height: 36px;
+  background: url(../img/landing/brand-logo__vimeo.png);
+}
+.landing-section_designers-workplace .item_tumblr {
+  width: 136px;
+  height: 36px;
+  background: url(../img/landing/brand-logo__tumblr.png);
+}
+
+/*  Users
+ */
+.landing-section_users {
+  width: 100%;
+  overflow: hidden;
+  padding: 3px 0;
+  background: #000;
+}
+.landing-section_users .items {
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.landing-section_users a {
+  width: 50px;
+  height: 50px;
+  display: block;
+  float: left;
+  position: relative;
+  background: #000;
+  opacity: 0;
+}
+.landing-section_users img {
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+}
+.landing-section_users .caption {
+  position: absolute;
+  display: none;
+  left: 0;
+  bottom: -20px;
+  white-space: nowrap;
+  z-index: 10;
+  
+  padding: 7px;
+  font-size: 11px;
+  background: #f58c03;
+  background: rgba(245,140,3,0.9);
+  border-top: 1px solid #f8b65f;
+  color: #fff;
+}
+.landing-section_users .caption:after {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 30px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px;
+  border-color: transparent transparent #e18206 #e18206;
+}
+.landing-section_users .p-right {
+  right: 0;
+  left: auto;
+}
+.landing-section_users .p-right:after {
+  left: auto;
+  right: 30px;
+}
+.landing-section_users .d-top {
+  top: -20px;
+  bottom: auto;
+}
+.landing-section_users .d-top:after {
+  border-color: #e18206 #e18206 transparent transparent;
+  top: auto;
+  bottom: -8px;
+}
+.landing-section_users a:hover img {
+  opacity: 1;
+}
+.landing-section_users a:hover .caption {
+  display: block;
+}
+
+/*  Item Previews
+ */
+.landing-section_design-previews {
+  padding-bottom: 3px;
+}
+
+/*  How It Works
+ */
+.landing-section_how-it-works {
+  text-align: center;
+  padding: 50px 0;
+}
+.landing-section_how-it-works .image {
+  margin: 40px 0 34px 0;
+  margin-left: -44px;
+}
+.landing-section_how-it-works .description {
+  line-height: 30px;
+  font-size: 21px;
+  font: 'Helvetica Neue Light', 'Helvetica Light', Arial, sans-serif;
+}
+.landing-section_how-it-works .small {
+  color: #505050;
+  font-size: 19px;
+}

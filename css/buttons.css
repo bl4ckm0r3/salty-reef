@@ -1,0 +1,74 @@
+/* -------------------------------------------------------
+    Buttons
+   -------------------------------------------------------*/
+.btn {
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn_green {
+  font-size: 15px;
+  line-height: 28px;
+  padding: 0 20px;
+  color: #fff;
+  background: #74af02;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87c70c), color-stop(100%,#74af02)); 
+  background: -webkit-linear-gradient(top, #87c70c 0%,#74af02 100%);
+  background:    -moz-linear-gradient(top, #87c70c 0%,#74af02 100%);
+  background:     -ms-linear-gradient(top, #87c70c 0%,#74af02 100%);
+  background:      -o-linear-gradient(top, #87c70c 0%,#74af02 100%);
+  background:         linear-gradient(top, #87c70c 0%,#74af02 100%);
+  -webkit-box-shadow: 1px 1px 0px 0px #5a8800;       
+          box-shadow: 1px 1px 0px 0px #5a8800;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+}
+.btn_twitter {
+  font-weight: bold;
+  font-size: 20px;
+  height: 38px;
+  line-height: 39px;
+  padding: 0 12px 0 8px;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .25);
+  background: #0388b6;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#70c9ec), color-stop(100%,#0388b6)); 
+  background: -webkit-linear-gradient(top, #70c9ec 0%,#0388b6 100%);
+  background:    -moz-linear-gradient(top, #70c9ec 0%,#0388b6 100%);
+  background:     -ms-linear-gradient(top, #70c9ec 0%,#0388b6 100%);
+  background:      -o-linear-gradient(top, #70c9ec 0%,#0388b6 100%);
+  background:         linear-gradient(top, #70c9ec 0%,#0388b6 100%);
+  -webkit-box-shadow: 1px 1px 0px 0px #025a79;       
+          box-shadow: 1px 1px 0px 0px #025a79;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+}
+.btn_twitter .icon {
+  display: inline-block;
+  vertical-align: text-top;
+  margin-top: 1px;
+  background: url(../img/btn_twitter__icon.png);
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+}
+.btn_orange {
+  padding: 0 24px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 17px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fdd40a;
+  background: #faab00;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdb51a), color-stop(100%,#faab00)); 
+  background: -webkit-linear-gradient(top, #fdb51a 0%,#faab00 100%);
+  background:    -moz-linear-gradient(top, #fdb51a 0%,#faab00 100%);
+  background:     -ms-linear-gradient(top, #fdb51a 0%,#faab00 100%);
+  background:      -o-linear-gradient(top, #fdb51a 0%,#faab00 100%);
+  background:         linear-gradient(top, #fdb51a 0%,#faab00 100%);
+  -webkit-box-shadow: 1px 1px 0px 0px #db7d00;       
+          box-shadow: 1px 1px 0px 0px #db7d00;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+}
